@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.1.5
+
+
+### 🩹 Fixes
+
+  - Change $animejs transfer temporarily for a specific task (e76ddd9)
+
+### ❤️  Contributors
+
+- Sunshengjie <sunshengjie@joygames.cc>
+
 ## v1.1.4
 
 
