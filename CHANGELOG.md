@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.1.3
+
+
+### 🩹 Fixes
+
+  - Nuxt3-anime type (7145135)
+
+### ❤️  Contributors
+
+- Sunshengjie <sunshengjie@joygames.cc>
+
 ## v1.1.2
 
 ## v1.1.1
