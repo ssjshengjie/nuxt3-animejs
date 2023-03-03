@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.1.4
+
+
+### 🩹 Fixes
+
+  - Fix ts type prompt (ca74dbe)
+
+### ❤️  Contributors
+
+- Sunshengjie <sunshengjie@joygames.cc>
+
 ## v1.1.3
 
 
