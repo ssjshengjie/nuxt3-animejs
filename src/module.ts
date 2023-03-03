@@ -11,6 +11,14 @@ export default defineNuxtModule<ModuleOptions>({
     }
   },
   defaults: {},
+  hooks: {
+    'prepare:types': (ctx) => {
+      ctx.tsConfig.compilerOptions!.types.push('@types/animejs')
+      ctx.references.push({
+        types: '@types/animejs'
+      })
+    }
+  },
   setup(options, nuxt) {
     const resolver = createResolver(import.meta.url)
     addPlugin(resolver.resolve('./runtime/plugin'))
