@@ -6,7 +6,7 @@
 
 - Helps you integrate `Anime.js` javascript animation library
 - Allows you to easily animate elements via custom `v-anime` directive 🔥
-- Provides a solution for global use via `const { $anime } = useNuxtApp();$anime()(api)` 🤩
+- Provides a solution for global use via `const { $anime } = useNuxtApp();$anime(api)` 🤩
 - `Zero-config` setup ready to go 🚀
 
 ## Quick Start
@@ -54,7 +54,7 @@ import { useNuxtApp } from '#app'
 import { onMounted } from 'vue'
 const { $anime } = useNuxtApp()
 onMounted(() => {
-  $anime()({
+  $anime({
     targets: '.title',
     left: '240px',
     backgroundColor: '#FFF',
